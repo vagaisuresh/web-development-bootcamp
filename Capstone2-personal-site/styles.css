@@ -1,0 +1,71 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #80db66;
+}
+.main-color {
+    color: #80db66;
+}
+
+.button {
+    background-color: #80db66;
+    color: azure;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: azure;
+    border: 1px solid #80db66;
+    color: #80db66;
+}
+
+header {
+    background-color: rgb(199, 255, 199);
+    color: white;
+    padding: 100px 0;
+}
+.title {
+    font-size: 1.5rem;
+    color: cornflowerblue;
+}
+.job-title {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 120px 0;
+}
+.hero {
+    background-color: azure;
+}
+.hero img {
+    border-radius: 50%;
+    height: 180px;
+}
+
+.project {
+    background-color: azure;
+}
+
+footer {
+    background-color: gray;
+    color: aliceblue;
+    padding: 20px 0;
+}
