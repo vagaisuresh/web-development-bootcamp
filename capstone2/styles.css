@@ -15,35 +15,49 @@ body {
 
 h1 {
     font-size: 5rem;
+    text-shadow: 2px 2px #16a6d7;
 }
 h2 {
     font-size: 2.5rem;
-    color: #80db66;
+    color: #16a6d7;
 }
+p {
+    line-height: 125%;
+}
+
+a {
+    color: #32aacd;
+    text-decoration: none;
+}
+a:hover {
+    color: #1b4d6c;
+}
+
+
 .main-color {
-    color: #80db66;
+    color: #007da7;
 }
 
 .button {
-    background-color: #80db66;
+    background-color: #32aacd;
     color: azure;
     padding: 7px 20px;
     text-decoration: none;
 }
 .button:hover {
     background-color: azure;
-    border: 1px solid #80db66;
-    color: #80db66;
+    border: 1px solid #32aacd;
+    color: #32aacd;
 }
 
 header {
-    background-color: rgb(199, 255, 199);
+    background-color: rgb(7, 235, 147);
     color: white;
     padding: 100px 0;
 }
 .title {
     font-size: 1.5rem;
-    color: cornflowerblue;
+    color: rgb(19, 131, 235);
 }
 .job-title {
     font-size: 1.5rem;
@@ -52,6 +66,11 @@ header {
 section {
     padding: 120px 0;
 }
+.box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .hero {
     background-color: azure;
 }
@@ -60,8 +79,39 @@ section {
     height: 180px;
 }
 
+.skills span {
+    background-color: #55d1fa;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+}
+.role {
+    margin: 50px 0;
+}
+.role span {
+    background-color: transparent;
+    border: 1px solid #a4e8ff;
+    color: #1b4d6c;
+}
+
 .project {
     background-color: azure;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.portfolio-item {
+    background-color: #e8f9ff;
+    border: 1px solid #a4e8ff;
+    padding: 20px;
+    text-align: left;
+}
+.portfolio-item img {
+    width: 100%;
 }
 
 footer {
