@@ -26,3 +26,11 @@ function rollDice() {
 
     document.getElementById("#result").innerHTML = result;
 }
+
+function changePlayer() {
+    var player1 = prompt("First player name?");
+    var player2 = prompt("Second player name?");
+
+    document.getElementById("#player1").innerHTML = player1;
+    document.getElementById("#player2").innerHTML = player2;
+}

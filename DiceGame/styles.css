@@ -55,8 +55,14 @@ button {
   font-family: 'Lobster', cursive;
   font-size: 1.2rem;
   padding: 5px 30px;
+  margin: 0 10px;
 }
 button:hover {
+  border: 1px solid #4ECCA3;
+  background-color: transparent;
+  color: #4ECCA3;
+}
+.secondary {
   border: 1px solid #4ECCA3;
   background-color: transparent;
   color: #4ECCA3;
